@@ -1,0 +1,25 @@
+# Binary streams & media (main cause of the error)
+streams/
+*.ts
+temp/
+temp_clone/
+attached_assets/
+
+# Build & dependency folders
+node_modules/
+dist/
+client/dist/
+server/public/
+
+# Environment & logs
+.env
+.env.*
+*.log
+*.sql
+*.gz
+*.tar.gz
+
+# Git & misc
+.git/
+.gitignore
+.DS_Store
